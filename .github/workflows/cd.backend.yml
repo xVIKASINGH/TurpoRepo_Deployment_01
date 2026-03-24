@@ -24,6 +24,6 @@ jobs:
           context: .
           file: ./docker/Dockerfile.Backend
           push: true
-          tags: vikas/todo_app_backend:${{ github.sha }}
+          tags: xvikasingh/todo_app_backend:${{ github.sha }}
           build-args: |
             DATABASE_URL=${{ secrets.DATABASE_URL }}
